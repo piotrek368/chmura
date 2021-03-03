@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<title>Tytuł strony</title>
+<link rel="stylesheet" href="styl.css" type="text/css" />
+</head>
+<body>
+<p style="text-align: right"><input type="submit" value="Save" style= "width:5%; background-color:#0099FF"> <input type="submit" value="Preview"style= "width:5%; background-color:grey"> <input type="submit" value="Send"style= "width:5%; background-color:red"></p>
+
+<div style= "width:50%; float:left">
+  <label for="fname">Email address:</label><br><input type="text" id="fname" name="fname"style= "width:95%" placeholder="name@example.com">
+  <br>
+  <label for="fname" style= "font-size: 11px">We'll never share your email with anyone else.</label>
+  <br>
+  <br>
+  <input type="text" id="fname" name="fname"style= "height:80%; width:95%">
+
+</div>
+<div style="width:50%; float:left">
+  <label for="lname">Rss url:</label><br><input type="text" id="lname" name="lname"style= "width:90%" placeholder="https://example.site/rss.xml"><input type="submit" value="Add"style= "width:10%;">
+  <br>
+  <br>
+  <br>
+  <label for="fname">Rss</label>
+</div>
+
+</body>
+
+</html>   
